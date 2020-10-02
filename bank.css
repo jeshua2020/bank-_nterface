@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    background-color: skyblue;
+}
+#container{
+    padding: 20px;
+    max-width: 100%;
+    margin: 10px auto;
+    border: hidden;
+    height: 20cm;
+}
+#box1{
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 40px 20px;
+    text-align: center;
+    line-height: 0.7em;
+    max-width: 100%;
+    overflow: auto;
+}
+#list{
+    margin: auto;
+    padding:1px;
+    float: right;
+    word-spacing: 15px;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    color:cyan;
+}
+a:hover{
+    color: #ff7f50;
+    font-size: 18px;
+}
+#logo{
+    color: cyan;
+    float: left;
+    margin: auto;
+    font-size: 10px;
+    position: relative;
+}
+#logo i{
+    position: absolute;
+    bottom: -4px;
+    right: -40px;
+}
+#box2{
+    line-height: 1.6em;
+    position: relative;
+}
+#box2 a{
+    background-color: cyan;
+    color: black;
+    text-overflow: none;
+    border:hidden;
+    border-radius: 8px;
+    display: block;
+    padding: 10px;
+    padding-top:10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#box2 a:hover{
+    color: white;
+    font-size: 20px;
+}
+#passport{
+    background-colorc:cyan;
+    max-width: auto;
+    padding: 70px;
+    padding-top:10px ;
+    margin: auto;
+}
+#passport h1{
+    color:#000000;
+    font-size: 10px;
+    float: right;
+    padding-top: 15px;
+    word-spacing: 4px;
+}
+#deposit{
+    padding: 20px 0; 
+    max-width: 20%;
+    text-align: center; 
+    margin: 2px;
+}
+#Transfer{
+    padding: 20px 0;
+    max-width: 20%;
+    text-align: center;
+    margin: 2px;
+}
+
+#withdraw{
+    padding: 20px 0 ;
+    max-width: 20%;
+    text-align: center;
+    margin: 2px;
+}
+#Airtime{
+    padding: 20px 0;
+    max-width: 20%;
+    text-align: center;
+    margin: 2px;
+}
+#history{
+    padding: 20px 0;
+    max-width: 20%;
+    text-align: center;
+    margin: 2px;
+}
+img{
+    padding: 5px 15px;
+    width:10%;
+    float: left;
+}
+#backgrd{
+    float: right;
+    padding-bottom: 50px;
+    align-content: center;
+    padding-right: 100px;
+}
+#backgrd a{
+    display: inline-block;
+    background-color: #000000;
+    color: #ff7f50;
+    border: 1px solid #000000;
+    cursor:pointer;
+}
+#backgrd a:hover{
+    color:white;
+    
+}
+#backgrd .noktel {
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+#backgrd .noktel2{
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+footer{
+    text-align: center;
+    margin: auto;
+    padding: 5px 5px;
+    width: 70%;
+    color: #000000;
+}
+
